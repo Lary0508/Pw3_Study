@@ -1,0 +1,58 @@
+body {
+  background-color:#4B0082 ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #E6E6FA;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  text-align: center;
+  width: 300px; /* Aumenta o tamanho do cartão */
+}
+
+
+
+
+.card img {
+  max-width: 200px;
+  margin: 20px auto;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+}
+
+.card-text {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-text i {
+  margin-right: 5px;
+  color: #517fa4;
+}
+.card img {
+  max-width: 200px;
+  margin: 20px auto;
+  border-radius: 100%; /* Deixa a imagem redonda */
+}
+.card-img-top {
+
+  margin: center;
+
+}
